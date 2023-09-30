@@ -54,7 +54,6 @@ body{
 }
 
 header{
-    background-color: red;
     height: auto;
     margin-bottom: 20px;
 }
@@ -224,7 +223,6 @@ header{
 }
 
 .about__content-left{
-    background-color: red;
     width: 625px;
     height: 100%;
 }
@@ -237,7 +235,6 @@ header{
 }
 
 .about__content-middle{
-    background-color: rgb(79, 79, 79);
     max-width: 486px;
     height: 100%;
     padding-left: 4px;
@@ -271,7 +268,6 @@ header{
 }
 
 .about__content-right{
-    background-color: green;
     max-width: 430px;
     height: 100%;
 }
