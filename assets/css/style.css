@@ -1,0 +1,318 @@
+@font-face {
+    font-family: Miracle;
+    src: url(../fonts/Miracle\ Personal\ use.otf) format(opentype);
+}
+
+:root{
+    --primary-color: #313F38;
+    --secondary-color: #FCD043;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+.wrapper{
+    background-color: var(--primary-color);
+    max-width: 1920px;
+    height: 13822px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.btn{
+    background-color: transparent;
+    width: 249px;
+    height: 70px;
+    border: 1px solid #FFFCF632;
+    border-radius: 35px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fffcf680;
+}
+
+.secondary-clr{
+    color: var(--secondary-color);
+}
+
+header{
+    background-color: red;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 82px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fffcf6;
+}
+
+.header__nav > ul{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 70px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+/* .header__nav > ul li{
+    display: inline-block;
+}
+
+.header__nav > ul li:not(:last-child){
+    margin-right: 70px;
+} */
+
+.header__nav > ul > li{
+    list-style: none;
+}
+
+.header__nav > ul > li > a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fffcf6;
+}
+
+.header__nav-number{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fffcf6;
+}
+
+.header__content{
+    width: 100%;
+    height: 1427px;
+}
+
+.header__content-upper{
+    display: flex;
+}
+
+.header__content-upper > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__content-upper > div:nth-child(1){
+    flex: 2.1;
+    gap: 62px;
+}
+
+.header__content-upper > div:nth-child(2){
+    flex: 1;
+    gap: 96px;
+}
+
+
+.header__content-upper > div:nth-child(1) > h1{
+    font-family: Miracle;
+    font-size: 220px;
+    font-weight: 400;
+    line-height: 200px;
+    color: #fffcf6;
+} 
+
+.header__content-upper > div:nth-child(1) > h1 > span{
+    color: var(--secondary-color);
+}
+
+.header__content-upper > div:nth-child(1) > p{
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.header__content-upper > div:nth-child(2) > button{
+    margin-top: 40px;
+}
+
+.header__content-upper > div:nth-child(2) > p{
+    width: 350px;
+}
+
+.header__content-middle{
+    background-image: url(../img/space-copenhagen-the-stratford-architonic-rs-8-03-arcit18\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 786px;
+    margin: 97px 0;
+}
+
+.header__content-lower{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header__content-lower > div:nth-child(1){
+    text-align: start;
+}
+
+.header__content-lower > div:nth-child(1) > p:not(:last-child){
+    margin-bottom: 14px;
+}
+
+.header__content-lower > div:nth-child(2){
+    text-align: end;
+}
+
+.header__content-lower > div:nth-child(2) > p > span{
+    font-style: italic;
+}
+
+
+.about{
+    background-color: grey;
+    width: 100%;
+    height: 1300px;
+}
+
+.about > svg{
+    position: absolute;
+}
+
+
+.about > svg:nth-child(2){
+    left: 730px;
+}
+
+.about > svg:nth-child(3){
+    left: 1418px;
+}
+
+.about > .container {
+    display: flex;
+    justify-content: space-between;    
+    height: 100%;
+    gap: 20px;
+}
+
+.about__content-left{
+    background-color: red;
+    width: 625px;
+    height: 100%;
+}
+
+.about__content-left > div{
+    background: url(../img/img2.png);
+    margin-top: 150px;
+    max-width: 606px;
+    height: 850px;
+}
+
+.about__content-middle{
+    background-color: rgb(79, 79, 79);
+    max-width: 486px;
+    height: 100%;
+    padding-left: 4px;
+}
+
+.about__content-middle > h2{
+    color: var(--secondary-color);
+    font-family: Miracle;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 130px;
+    text-transform: uppercase;
+    text-align: end;
+    margin-top: 310px;
+}
+
+.about__content-middle > h2 > span{
+    color: #fffcf6;
+}
+
+.about__content-middle > h4{
+    color: #fffcf6;
+    font-family: Miracle;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    margin-top: 189px;
+    margin-bottom: 41px;
+}
+
+.about__content-right{
+    background-color: green;
+    max-width: 430px;
+    height: 100%;
+}
+
+.about__content-right > svg:nth-child(1){
+    position: absolute;
+    top: 300px;
+    left: 0;
+    z-index: 2;
+}
+
+.about__content-right > div{
+    background: url(../img/img3.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 116px;
+    margin-top: 150px;
+    max-width: 314px;
+    height: 415px;
+}
+
+
+
+/* ================= ADAPTIVE LAYOUTS ================= */
+
+@media screen and (max-width: 1440px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .header__content-upper > div:nth-child(1) > h1{
+        font-size: 170px;
+    }
+
+    .header__content-upper > div:nth-child(1) > h{
+        font-size: 18px;
+    }
+    
+
+}
